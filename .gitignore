@@ -1,0 +1,12 @@
+
+# Arquivos de dados e resultados gerados
+dados/
+indices/
+
+# Executáveis e arquivos compilados
+*.exe
+*.o
+
+# Arquivos temporários
+merge_r*
+bloco_*.dat
