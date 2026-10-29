@@ -20,6 +20,12 @@ O programa transforma os dados do CSV em arquivos binários de tamanho fixo, per
 - **Inserção e remoção:** operações de alteração de registros disponibilizadas pelo menu do programa.
 - **Persistência:** armazenamento dos dados e índices em arquivos, permitindo sua reutilização em execuções posteriores.
 
+## Limitação do conjunto de dados
+
+Para a execução e validação do programa, foi utilizado um limite de leitura de 10.000 registros do CSV original. Essa limitação reduz o tempo de processamento e permite gerar os arquivos binários e os índices parciais sem processar integralmente o conjunto de dados original.
+
+Os arquivos disponibilizados no repositório correspondem à execução limitada do programa. A quantidade final de registros em cada arquivo pode variar conforme o processamento e a organização dos dados.
+
 ## Organização dos arquivos
 
 O programa trabalha com dois conjuntos principais de dados:
